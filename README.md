@@ -22,7 +22,7 @@ Please review the fetched scripts if you don't trust me. Just some simple lines 
 	exec(urllib2.urlopen('http://pastebin.com/raw.php?i=HTjPFEZN').read())
 	
 #### Connect to your iOS device
-	telnet 192.168.100.115 4711
+	telnet iphoneiplan 4711
 	Trying 192.168.100.115...
 	Connected to ****-iphone.
 	Escape character is '^]'.
