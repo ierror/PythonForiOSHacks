@@ -58,13 +58,14 @@ try:
                     )
 
                 # date
-                if cmd.startswith('date'):
+                elif cmd.startswith('date'):
                     from time import gmtime, strftime
                     client.send(strftime('%Y-%m-%d %H:%M:%S', gmtime()))
 
                 # whoami
-                import pwd
-                client.send(pwd.getpwuid(os.getuid())[0])
+                elif cmd.startswith('whoami'):
+                    import pwd
+                    client.send(pwd.getpwuid(os.getuid())[0])
 
                 client.send('\n')
                 client.cmd_ready = False
