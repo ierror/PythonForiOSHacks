@@ -7,6 +7,12 @@ Proof of concept for missing? iOS features using the [Python for iOS](http://itu
 
 ## Examples
 
+Enter the following examples into the Python for iOS shell.
+Please review the fetched scripts if you don't trust me. Just some simple lines of python code…. ;)
+
+* http://pastebin.com/raw.php?i=HTjPFEZN
+* http://pastebin.com/raw.php?i=0J1HJ7M4
+
 
 ### Telnetserver
 
