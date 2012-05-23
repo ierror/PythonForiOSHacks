@@ -10,8 +10,8 @@ Proof of concept for missing? iOS features using the [Python for iOS](http://itu
 Enter the following examples into the Python for iOS shell.
 Please review the fetched scripts if you don't trust me. Just some simple lines of python code…. ;)
 
-* http://pastebin.com/raw.php?i=HTjPFEZN
-* http://pastebin.com/raw.php?i=0J1HJ7M4
+* Telnetserver: http://pastebin.com/HTjPFEZN
+* Webserver: http://pastebin.com/0J1HJ7M4
 
 
 ### Telnetserver
@@ -22,36 +22,12 @@ Please review the fetched scripts if you don't trust me. Just some simple lines 
 	exec(urllib2.urlopen('http://pastebin.com/raw.php?i=HTjPFEZN').read())
 	
 #### Connect to your iOS device
-	telnet iphoneiplan 4711
-	Trying 192.168.100.115...
-	Connected to ****-iphone.
-	Escape character is '^]'.
-	You connected from 192.168.100.200:52774
-	ls /
-	.Trashes
-	.file
-	Applications
-	Developer
-	Library
-	System
-	bin
-	cores
-	dev
-	etc
-	private
-	sbin
-	tmp
-	usr
-	var
-
-
-	whoami
-	mobile
-
-
-	date
-	2012-05-21 22:13:54
-
+	telnet <current IP address of your iOS device> 4711
+	
+#### Try one of implemented commands
+* ls /
+* whoami
+* date
 
 ### Webserver
 
@@ -61,7 +37,7 @@ Please review the fetched scripts if you don't trust me. Just some simple lines 
 	exec(urllib2.urlopen('http://pastebin.com/raw.php?i=0J1HJ7M4').read())
 	
 #### Browse your iOS device
-	http://iphoneiplan:4711/
+	http://<current IP address of your iOS device>:4711/
 	
 ## Contact
 * [Twitter](https://twitter.com/#!/i_error)
