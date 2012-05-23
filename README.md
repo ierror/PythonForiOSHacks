@@ -2,6 +2,8 @@
 
 Proof of concept for missing? iOS features using the [Python for iOS](http://itunes.apple.com/us/app/python-for-ios/id485729872?mt=8&ign-mpt=uo%3D4) app.
 
+{:toc}
+
 ## Prerequisite
  * [Python for iOS](http://itunes.apple.com/us/app/python-for-ios/id485729872?mt=8&ign-mpt=uo%3D4)
 
@@ -24,7 +26,7 @@ Please review the fetched scripts if you don't trust me. Just some simple lines 
 #### Connect to your iOS device
 	telnet <current IP address of your iOS device> 4711
 	
-#### Try one of implemented commands
+#### Type one of implemented commands
 * ls /
 * whoami
 * date
