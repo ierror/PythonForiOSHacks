@@ -2,8 +2,6 @@
 
 Proof of concept for missing? iOS features using the [Python for iOS](http://itunes.apple.com/us/app/python-for-ios/id485729872?mt=8&ign-mpt=uo%3D4) app.
 
-{:toc}
-
 ## Prerequisite
  * [Python for iOS](http://itunes.apple.com/us/app/python-for-ios/id485729872?mt=8&ign-mpt=uo%3D4)
 
