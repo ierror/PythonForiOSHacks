@@ -24,7 +24,7 @@ Please review the fetched scripts if you don't trust me. Just some simple lines 
 #### Connect to your iOS device
 	telnet <current IP address of your iOS device> 4711
 	
-#### Type one of implemented commands
+#### Type one of the implemented commands
 * ls /
 * whoami
 * date
